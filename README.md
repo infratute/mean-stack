@@ -1,6 +1,6 @@
 # Mean Stack - Customer Store App
 
-This Customer Store is a very basic Mean Stack application developed using MongoDB, Express, Angular and Node.js to show CRUD operations on MongoDB using RestAPI.
+This Customer Store Contact is a very basic Mean Stack application developed using MongoDB, Express, Angular and Node.js to show CRUD operations on MongoDB using RestAPI.
 
 ## Prerequisites
 
