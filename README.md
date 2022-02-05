@@ -42,8 +42,6 @@ npm install
 ```
 
 ### Run Client & Server
-
-Run following command to start the client application and server concurrently.
 Open a terminal and ensure that you are in the directory within which your entire project is contained. Now run
 
 ```
