@@ -19,13 +19,7 @@ You may choose to either fork the entire project and test it or build the projec
 
 ### Setup server
 
-Open the command window in the folder where you have unzip the mean-stack-application repository.
-
-Rename **.env_example** file to **.env** and add following code in the file in case you are using local MongoDB.
-
-`DB_CONNECTION=mongodb://localhost:27017/customerDb`
-
-Otherwise, if you are using cloud based MongoDB service then you the connection string you get from there instead of local one.
+On your VS Code, Open the command window in the folder where you have unzipped the mean-stack application repository.
 
 Now run following command to install all the package dependencies.
 
@@ -50,24 +44,14 @@ npm install
 ### Run Client & Server
 
 Run following command to start the client application and server concurrently.
+Open a terminal and ensure that you are in the directory within which your entire project is contained. Now run
 
 ```
-npm run dev
+node server.js
 ```
-
+Open another terminal and ensure that you are in the client directory. Now run
+```
+ng serve --open
+```
 > Server will listen at URL - `http://localhost:3000/Customers`
 > Navigate to `http://localhost:4200/`to access the client application.
-
-## Docker Support
-
-Docker image of this app is available at my docker Hub registory. You can pull the image from [meanstack-app](https://hub.docker.com/repository/docker/sanjaysaini2000/meanstack_frontend) repository.
-
-## Built With
-
-- [Node.js v10.15.1](https://nodejs.org/en/) - The .Net Core framework used
-- [Angular CLI v7.3.1](https://cli.angular.io/) - This project was generated with
-- [VS Code](https://code.visualstudio.com/download) - The Code editor used
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
