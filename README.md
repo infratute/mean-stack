@@ -5,18 +5,17 @@ This application demonstrates the MEAN stack deployment and CRUD operations on M
 
 ## Prerequisites
 
-- In order to run this app, you need Node.js, which is javascript runtime installed on our machine.
-  So download and install the latest Node.js available from this [link](https://nodejs.org/en/).
+- In order to run this app, you need Node.js, which is javascript runtime installed on our machine. Follow the instructions given by your instructor for installing the node.js during your course delivery, for installing the node.js application on you rlocal machine.
 
-- we also need to have MongoDB installed on the machine. You can download and install MongoDB community edition free from this [link](https://www.mongodb.com/download-center/community).
+- we also need to have MongoDB. We can with choose to have mongodb-CE(Community Edition) installed on your local machine
 
 OR
 
-- if you dont want to install MongoDB on your machine then you can use cloud hosted MongoDB service from this [link](https://cloud.mongodb.com/user#/atlas/login). Ypu have to create account and use free tier to host your data.
+- Choose to use the MongoDB free tier service. Follow the instructions from your course.
 
 ## Getting Started
 
-Clone or Download the zip file of this repository.
+You may choose to either fork the entire project and test it or build the project from the scratch using the specific files only.
 
 ### Setup server
 
